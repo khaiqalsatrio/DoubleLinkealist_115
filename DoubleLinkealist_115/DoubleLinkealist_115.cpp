@@ -184,3 +184,10 @@ int main() {
 			cout << "nEnter your choise (1-6): ";
 			char ch;
 			cin >> ch;
+
+			switch (ch) {
+			case '1':
+				obj.addNode();
+				break;
+			case '2':
+				obj.hapus();
